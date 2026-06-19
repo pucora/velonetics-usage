@@ -23,9 +23,9 @@ The Pucora usage is designed to collect **anonymous information** from any softw
 		return
 	}
 ```
-From the options above, you must implement at least the `ClusterID`, `ServerID`, and `URL`. We recommend using an `uuid` randomly-generated for the IDs. All the options are [documented here](https://github.com/pucora/velonetics-usage/blob/dev-v2/usage.go#L28-L57).
+From the options above, you must implement at least the `ClusterID`, `ServerID`, and `URL`. We recommend using an `uuid` randomly-generated for the IDs. All the options are [documented here](https://github.com/pucora/pucora-usage/blob/dev-v2/usage.go#L28-L57).
 
-The processing server for this report is out of the project's scope, but [you can get inspiration from the tests](https://github.com/pucora/velonetics-usage/blob/dev-v2/reporter_test.go#L42-L105).
+The processing server for this report is out of the project's scope, but [you can get inspiration from the tests](https://github.com/pucora/pucora-usage/blob/dev-v2/reporter_test.go#L42-L105).
 
 On Pucora API gateway, the module is entirely disabled by setting an environment var `USAGE_DISABLE=1`, but you should decide your strategy to disable it in your application.
 

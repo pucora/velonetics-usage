@@ -1,4 +1,4 @@
-module github.com/pucora/velonetics-usage/v2
+module github.com/pucora/pucora-usage/v2
 
 go 1.19
 
